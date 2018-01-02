@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/cao/Desktop/opencv_android_setup_tutorial/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\cao\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\cao\\Desktop\\opencv_android_setup_tutorial\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "C:/Users/cao/Desktop/opencv_android_setup_tutorial/app/src/main/jniLibs/x86_64/libopencv_java3.so",
+			"toolchain" : "1749172943"
+		},
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\cao\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\cao\\Desktop\\opencv_android_setup_tutorial\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/bbkp/Desktop/android-ndk-r14b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/bbkp/Desktop/android-ndk-r14b/platforms/android-21/arch-x86_64  -Dnative_lib_EXPORTS -IC:\\Users\\cao\\Desktop\\opencv_android_setup_tutorial\\openCVLibrary320\\src\\main\\jniLibs\\jni\\include -isystem C:\\bbkp\\Desktop\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\bbkp\\Desktop\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\bbkp\\Desktop\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/cao/Desktop/opencv_android_setup_tutorial/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/cao/Desktop/opencv_android_setup_tutorial/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "C:/Users/cao/Desktop/opencv_android_setup_tutorial/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "1749172943"
+		}
+	},
+	"toolchains" : 
+	{
+		"1749172943" : 
+		{
+			"cCompilerExecutable" : "C:/bbkp/Desktop/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/bbkp/Desktop/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
